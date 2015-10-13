@@ -228,11 +228,12 @@ body {
 
 header {
   height: 450px;
-  background: #ccc; }
+  background: url(../img/239H.jpg) center center; }
   header .logo {
+    font-size: 50px;
+    font-weight: 700;
     height: 50px;
     width: 50px;
-    background: #999;
     float: left;
     margin: 10px 0 0 30px; }
   header nav {
@@ -255,7 +256,8 @@ header {
     text-transform: uppercase;
     letter-spacing: 0.05em;
     margin-bottom: 20px;
-    clear: both; }
+    clear: both;
+    padding-top: 100px; }
     header h1 span {
       display: inline-block;
       padding: 0.2em 0.5em;
