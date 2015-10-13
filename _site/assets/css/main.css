@@ -233,7 +233,8 @@ header nav a, header .kicker, footer .lockup .content-wrap a, h3 {
 
 header {
   height: 450px;
-  background: url(../img/background.jpg) center center; }
+  background: url(../img/blurred-desktop.jpeg) center center;
+  background-size: cover; }
   header .logo {
     font-size: 50px;
     font-weight: 700;
@@ -272,7 +273,7 @@ header {
     color: white; }
 
 footer {
-  background: url(../img/background.jpg) center center;
+  background: url(../img/blurred-desktop.jpeg) center center;
   background: cover; }
   footer .lockup {
     padding: 50px 30px; }
