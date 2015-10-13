@@ -232,23 +232,30 @@ header {
   header .logo {
     height: 50px;
     width: 50px;
-    background: #999; }
-  header nav a {
-    display: inline-block;
-    margin-left: 20px;
-    color: rgba(0, 0, 0, 0.6);
-    font-size: 14px;
-    font-weight: 700;
-    text-transform: uppercase; }
-    header nav a:hover {
-      color: black; }
+    background: #999;
+    float: left;
+    margin: 10px 0 0 30px; }
+  header nav {
+    float: right;
+    margin: 30px 30px 0 0; }
+    header nav a {
+      display: inline-block;
+      margin-left: 20px;
+      color: rgba(0, 0, 0, 0.6);
+      font-size: 14px;
+      font-weight: 700;
+      text-transform: uppercase; }
+      header nav a:hover {
+        color: black; }
   header h1 {
     text-align: center;
     font-size: 72px;
     font-weight: 700;
     color: white;
     text-transform: uppercase;
-    letter-spacing: 0.05em; }
+    letter-spacing: 0.05em;
+    margin-bottom: 20px;
+    clear: both; }
     header h1 span {
       display: inline-block;
       padding: 0.2em 0.5em;

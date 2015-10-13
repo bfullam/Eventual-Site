@@ -1,13 +1,6 @@
-DevTips-Starter-Kit (Jekyll Friendly)
+Bryan Fullam's Personal Website/Portfolio
 ===================
 
-Use this as a simple structure for a simple start to a simple site.
+This is the repository where I build and maintain my personal website.
 
-
-<a href="http://www.youtube.com/watch?feature=player_embedded&v=GTBaQ2DcGUk
-" target="_blank">
-Watch the video on YouTube
-<img src="thumbnail.png" 
-alt="Watch the video on youtube" />
-
-</a>
+Check it out over at bfullam.github.io
