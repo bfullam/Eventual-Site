@@ -2,5 +2,22 @@ h3
   @extend %small-bold
   color: black
   text-align: center
+  padding: 100px 0 30px
   
 .face-lockup
+  max-width: 780px
+  +display(flex)
+  margin: 0 auto
+  
+  .face-img
+    +size(200px)
+    background: url(/assets/img/circleAvatar.png)
+    margin: 0 auto
+  
+.blurb
+  max-width: 620px
+  padding: 0 15px
+  margin: 50px auto
+  font-size: 24px
+  text-align: center
+  font-weight: 300
