@@ -1,3 +1,10 @@
+# Site settings
+title: Bryan Fullam
+email: bryanfullam@gmail.com
+description: "Thinker // Developer // Student"
+
+
+
 # Build settings
 
 markdown: kramdown

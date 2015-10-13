@@ -1,0 +1,37 @@
+footer
+  background: url(../img/239h.jpg)center center
+  background: cover
+    
+  .lockup
+    padding: 50px 30px
+    +clearfix
+    
+    
+    .logo
+      font: 
+        size: 50px
+        weight: 700
+      +size(50px)
+      float: left
+      margin-right: 30px
+
+      a 
+        color: rgba(0,0,0,0.5)
+      
+    .content-wrap
+      float: left
+      padding-top: 20px
+      
+      .copyright
+        margin: 0
+        font-size: 12px
+        color: white
+        
+      a
+        @extend %small-bold
+        color: white
+        display: inline-block
+        margin-right: 20px
+        
+        &:hover
+          color: rgba(0,0,0,1)
