@@ -3,4 +3,4 @@ Bryan Fullam's Personal Website/Portfolio
 
 This is the repository where I build and maintain my personal website.
 
-Check it out over at bfullam.github.io
+Check it out over at <a href="bfullam.github.io">bfullam.github.io</a>
