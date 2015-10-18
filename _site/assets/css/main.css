@@ -274,7 +274,7 @@ header {
 
 footer {
   background: url(../img/blurred-desktop.jpeg) center center;
-  background: cover; }
+  background-size: cover; }
   footer .lockup {
     padding: 50px 30px; }
     footer .lockup:after {
