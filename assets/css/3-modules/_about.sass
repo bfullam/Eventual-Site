@@ -3,17 +3,17 @@ h3
   color: black
   text-align: center
   padding: 100px 0 30px
-  
+
 .face-lockup
   max-width: 780px
   +display(flex)
   margin: 0 auto
-  
+
   .face-img
     +size(200px)
     background: url(/assets/img/circleAvatar.png)
     margin: 0 auto
-  
+
 .blurb
   max-width: 620px
   padding: 0 15px
@@ -21,3 +21,47 @@ h3
   font-size: 24px
   text-align: center
   font-weight: 300
+
+.skill-lockup
+  max-width: 540px
+  margin: 100px auto
+  color: #999
+  +clearfix
+  text-align: center
+  padding: 0 100px
+
+  .skill-unit
+    width: 270px
+    float: left
+
+  .skill-icon
+    margin: 3px 0 30px
+
+    span
+      display: inline-block
+      +size(14px)
+      background-color: $accent-color
+      margin-right: 8px
+      border-radius: 50%
+
+      &::after
+        content: ''
+        display: block
+        +size(10px)
+        background: #fff
+        border-radius: 50%
+        margin: 2px
+
+    @for $i from 1 through 10
+      &.skill-#{$i} span:nth-child(n+#{$i + 1})
+        @extend %skill-color
+
+  @media screen and (max-width: 541px)
+    .skill-lockup
+      width: 270px
+
+      .skill-unit
+        width: 220px
+
+  %skill-color
+    background: #a2a3a3

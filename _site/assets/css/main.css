@@ -149,7 +149,7 @@ td, th {
   src: local("Open Sans"), local("OpenSans"), url(//themes.googleusercontent.com/static/fonts/opensans/v8/cJZKeOuBrn4kERxqtaUH3bO3LdcAZYWl9Si6vvxL-qU.woff) format("woff"); }
 .gigantic, .huge, .large, .bigger, .big,
 h1, h2, h3, h4, h5, h6 {
-  color: #BD5248;
+  color: #a2602a;
   font-weight: bold; }
 
 .gigantic {
@@ -195,12 +195,12 @@ hr {
   height: 0; }
 
 a {
-  color: #BD5248;
+  color: #a2602a;
   text-decoration: none;
   outline: 0; }
 
 a:hover, a:focus {
-  color: #d89993; }
+  color: #d5935d; }
 
 ::selection {
   background: #FFF498; }
@@ -332,3 +332,41 @@ h3 {
   font-size: 24px;
   text-align: center;
   font-weight: 300; }
+
+.skill-lockup {
+  max-width: 540px;
+  margin: 100px auto;
+  color: #999;
+  text-align: center;
+  padding: 0 100px; }
+  .skill-lockup:after {
+    content: "";
+    display: table;
+    clear: both; }
+  .skill-lockup .skill-unit {
+    width: 270px;
+    float: left; }
+  .skill-lockup .skill-icon {
+    margin: 3px 0 30px; }
+    .skill-lockup .skill-icon span {
+      display: inline-block;
+      height: 14px;
+      width: 14px;
+      background-color: #a2602a;
+      margin-right: 8px;
+      border-radius: 50%; }
+      .skill-lockup .skill-icon span::after {
+        content: "";
+        display: block;
+        height: 10px;
+        width: 10px;
+        background: #fff;
+        border-radius: 50%;
+        margin: 2px; }
+  @media screen and (max-width: 541px) {
+    .skill-lockup .skill-lockup {
+      width: 270px; }
+      .skill-lockup .skill-lockup .skill-unit {
+        width: 220px; } }
+  .skill-lockup .skill-icon.skill-1 span:nth-child(n+2), .skill-lockup .skill-icon.skill-2 span:nth-child(n+3), .skill-lockup .skill-icon.skill-3 span:nth-child(n+4), .skill-lockup .skill-icon.skill-4 span:nth-child(n+5), .skill-lockup .skill-icon.skill-5 span:nth-child(n+6), .skill-lockup .skill-icon.skill-6 span:nth-child(n+7), .skill-lockup .skill-icon.skill-7 span:nth-child(n+8), .skill-lockup .skill-icon.skill-8 span:nth-child(n+9), .skill-lockup .skill-icon.skill-9 span:nth-child(n+10), .skill-lockup .skill-icon.skill-10 span:nth-child(n+11) {
+    background: #a2a3a3; }
