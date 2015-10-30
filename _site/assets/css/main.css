@@ -149,7 +149,7 @@ td, th {
   src: local("Open Sans"), local("OpenSans"), url(//themes.googleusercontent.com/static/fonts/opensans/v8/cJZKeOuBrn4kERxqtaUH3bO3LdcAZYWl9Si6vvxL-qU.woff) format("woff"); }
 .gigantic, .huge, .large, .bigger, .big,
 h1, h2, h3, h4, h5, h6 {
-  color: #a2602a;
+  color: #874a18;
   font-weight: bold; }
 
 .gigantic {
@@ -195,12 +195,12 @@ hr {
   height: 0; }
 
 a {
-  color: #a2602a;
+  color: #874a18;
   text-decoration: none;
   outline: 0; }
 
 a:hover, a:focus {
-  color: #d5935d; }
+  color: #d97a2c; }
 
 ::selection {
   background: #FFF498; }
@@ -226,7 +226,12 @@ body {
   -webkit-font-smoothing: antialiased;
   -webkit-text-size-adjust: 100%; }
 
-header nav a, header .kicker, footer .lockup .content-wrap a, h3 {
+h3 {
+  color: #874a18;
+  text-align: center;
+  padding: 100px 0 30px; }
+
+h3, header nav a, header .kicker, footer .lockup .content-wrap a {
   font-size: 14px;
   font-weight: 700;
   text-transform: uppercase; }
@@ -304,11 +309,6 @@ footer {
         footer .lockup .content-wrap a:hover {
           color: black; }
 
-h3 {
-  color: black;
-  text-align: center;
-  padding: 100px 0 30px; }
-
 .face-lockup {
   max-width: 780px;
   display: -webkit-box;
@@ -352,7 +352,7 @@ h3 {
       display: inline-block;
       height: 14px;
       width: 14px;
-      background-color: #a2602a;
+      background-color: #874a18;
       margin-right: 8px;
       border-radius: 50%; }
       .skill-lockup .skill-icon span::after {
